@@ -1,0 +1,97 @@
+.board-title{
+    cursor: pointer;
+}
+
+.board-title:hover{
+    color: #007bff;
+}
+
+/* 전체 컨테이너 스타일 */
+.main-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 제목 스타일 */
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+ .board-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* 게시판 항목 스타일 */
+.board-item {
+    width: 26%;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+@media (max-width: 480px) {
+    .board-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    /* 게시판 항목 스타일 */
+    .board-item {
+        width: 100%;
+        padding: 15px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+    }
+    
+}
+/* 게시판 목록 스타일 */
+/* .board-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* 게시판 항목 스타일 */
+/* .board-item {
+    width: 28%;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+} */
+
+/* 게시판 제목 스타일 */
+.board-title {
+    margin: 0;
+    font-size: 1.2em;
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* 호버 효과 */
+.board-item:hover {
+    background-color: #f0f8ff;
+}
+
+.board-title:hover {
+    color: #0056b3;
+}
+
